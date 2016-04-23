@@ -344,6 +344,7 @@
     <Folder Include="Content\" />
     <Folder Include="Lib\" />
     <Folder Include="Services\EduBanking\Images\" />
+    <Folder Include="Services\Management\Interfaces\Services\" />
     <Folder Include="Upload\AssetData\" />
     <Folder Include="Upload\EduBanking\" />
   </ItemGroup>
