@@ -640,6 +640,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Validators\" />
+    <Folder Include="ViewModels\Services\" />
+    <Folder Include="Views\Services\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\AssCommonResource.resx">
