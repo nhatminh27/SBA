@@ -39,7 +39,7 @@ namespace gMVVM.Views.Common {
         
         internal System.Windows.Controls.Grid LayoutRoot;
         
-        internal Expander ToolLog;
+        internal System.Windows.Controls.Expander ToolLog;
         
         private bool _contentLoaded;
         
@@ -55,7 +55,7 @@ namespace gMVVM.Views.Common {
             System.Windows.Application.LoadComponent(this, new System.Uri("/gMVVM;component/Views/Common/ToolHeader.xaml", System.UriKind.Relative));
             this.RootItem = ((System.Windows.Controls.UserControl)(this.FindName("RootItem")));
             this.LayoutRoot = ((System.Windows.Controls.Grid)(this.FindName("LayoutRoot")));
-            this.ToolLog = ((Expander)(this.FindName("ToolLog")));
+            this.ToolLog = ((System.Windows.Controls.Expander)(this.FindName("ToolLog")));
         }
     }
 }

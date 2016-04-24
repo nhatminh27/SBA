@@ -41,7 +41,7 @@ namespace gMVVM {
         
         internal System.Windows.Controls.Grid LayoutRoot;
         
-        internal BusyIndicator ProcessingLogin;
+        internal System.Windows.Controls.BusyIndicator ProcessingLogin;
         
         internal System.Windows.Controls.Border SwivelPanelBack;
         
@@ -62,7 +62,7 @@ namespace gMVVM {
             this.SwivelToBackStoryboard = ((System.Windows.Media.Animation.Storyboard)(this.FindName("SwivelToBackStoryboard")));
             this.SwivelToFrontStoryboard = ((System.Windows.Media.Animation.Storyboard)(this.FindName("SwivelToFrontStoryboard")));
             this.LayoutRoot = ((System.Windows.Controls.Grid)(this.FindName("LayoutRoot")));
-            this.ProcessingLogin = ((BusyIndicator)(this.FindName("ProcessingLogin")));
+            this.ProcessingLogin = ((System.Windows.Controls.BusyIndicator)(this.FindName("ProcessingLogin")));
             this.SwivelPanelBack = ((System.Windows.Controls.Border)(this.FindName("SwivelPanelBack")));
             this.SwivelPanelFront = ((System.Windows.Controls.Border)(this.FindName("SwivelPanelFront")));
         }

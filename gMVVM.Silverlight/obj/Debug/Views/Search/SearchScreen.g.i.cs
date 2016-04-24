@@ -41,11 +41,11 @@ namespace gMVVM.Views.Search {
         
         internal System.Windows.Media.Animation.Storyboard StoryboardBackClick;
         
-        internal ChangePropertyAction buttonclo;
+        internal Microsoft.Expression.Interactivity.Core.ChangePropertyAction buttonclo;
         
-        internal ChangePropertyAction buttonclo1;
+        internal Microsoft.Expression.Interactivity.Core.ChangePropertyAction buttonclo1;
         
-        internal BusyIndicator Processing1;
+        internal System.Windows.Controls.BusyIndicator Processing1;
         
         internal System.Windows.Controls.Grid LayoutRoot;
         
@@ -76,9 +76,9 @@ namespace gMVVM.Views.Search {
             this.childWindow = ((System.Windows.Controls.ChildWindow)(this.FindName("childWindow")));
             this.StoryboardNavigateFrame = ((System.Windows.Media.Animation.Storyboard)(this.FindName("StoryboardNavigateFrame")));
             this.StoryboardBackClick = ((System.Windows.Media.Animation.Storyboard)(this.FindName("StoryboardBackClick")));
-            this.buttonclo = ((ChangePropertyAction)(this.FindName("buttonclo")));
-            this.buttonclo1 = ((ChangePropertyAction)(this.FindName("buttonclo1")));
-            this.Processing1 = ((BusyIndicator)(this.FindName("Processing1")));
+            this.buttonclo = ((Microsoft.Expression.Interactivity.Core.ChangePropertyAction)(this.FindName("buttonclo")));
+            this.buttonclo1 = ((Microsoft.Expression.Interactivity.Core.ChangePropertyAction)(this.FindName("buttonclo1")));
+            this.Processing1 = ((System.Windows.Controls.BusyIndicator)(this.FindName("Processing1")));
             this.LayoutRoot = ((System.Windows.Controls.Grid)(this.FindName("LayoutRoot")));
             this.FrameChi = ((System.Windows.Controls.ContentControl)(this.FindName("FrameChi")));
             this.lblTitle = ((System.Windows.Controls.Label)(this.FindName("lblTitle")));

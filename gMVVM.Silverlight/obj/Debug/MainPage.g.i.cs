@@ -37,7 +37,7 @@ namespace gMVVM {
         
         internal System.Windows.Controls.Grid LayoutRoot;
         
-        internal BusyIndicator Processing;
+        internal System.Windows.Controls.BusyIndicator Processing;
         
         internal System.Windows.Controls.Frame ContentFrame;
         
@@ -54,7 +54,7 @@ namespace gMVVM {
             _contentLoaded = true;
             System.Windows.Application.LoadComponent(this, new System.Uri("/gMVVM;component/MainPage.xaml", System.UriKind.Relative));
             this.LayoutRoot = ((System.Windows.Controls.Grid)(this.FindName("LayoutRoot")));
-            this.Processing = ((BusyIndicator)(this.FindName("Processing")));
+            this.Processing = ((System.Windows.Controls.BusyIndicator)(this.FindName("Processing")));
             this.ContentFrame = ((System.Windows.Controls.Frame)(this.FindName("ContentFrame")));
         }
     }

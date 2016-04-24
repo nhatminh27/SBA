@@ -37,9 +37,9 @@ namespace gMVVM.Views.Common {
         
         internal System.Windows.Controls.UserControl RootItem;
         
-        internal ChangePropertyAction buttonclo;
+        internal Microsoft.Expression.Interactivity.Core.ChangePropertyAction buttonclo;
         
-        internal ChangePropertyAction buttonclo1;
+        internal Microsoft.Expression.Interactivity.Core.ChangePropertyAction buttonclo1;
         
         internal System.Windows.Controls.Grid LayoutRoot;
         
@@ -58,8 +58,8 @@ namespace gMVVM.Views.Common {
             _contentLoaded = true;
             System.Windows.Application.LoadComponent(this, new System.Uri("/gMVVM;component/Views/Common/Profile.xaml", System.UriKind.Relative));
             this.RootItem = ((System.Windows.Controls.UserControl)(this.FindName("RootItem")));
-            this.buttonclo = ((ChangePropertyAction)(this.FindName("buttonclo")));
-            this.buttonclo1 = ((ChangePropertyAction)(this.FindName("buttonclo1")));
+            this.buttonclo = ((Microsoft.Expression.Interactivity.Core.ChangePropertyAction)(this.FindName("buttonclo")));
+            this.buttonclo1 = ((Microsoft.Expression.Interactivity.Core.ChangePropertyAction)(this.FindName("buttonclo1")));
             this.LayoutRoot = ((System.Windows.Controls.Grid)(this.FindName("LayoutRoot")));
             this.ButtonClose = ((System.Windows.Controls.Button)(this.FindName("ButtonClose")));
         }
